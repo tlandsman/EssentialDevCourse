@@ -74,6 +74,34 @@ class RemoteFeedLoaderTests: XCTestCase {
         }
     }
     
+    //Happy path
+    
+    func test_load_deliversItemsOn200HTTPResponseWithJsonItems() {
+        let item1Json = [
+            "id": FeedItem.item1.id.uuidString,
+            "image": FeedItem.item1.imageURL.absoluteString
+        ]
+        
+        let item2Json = [
+            "id": FeedItem.item2.id.uuidString,
+            "description": FeedItem.item2.description,
+            "location": FeedItem.item2.location,
+            "image": FeedItem.item2.imageURL.absoluteString
+        ]
+        
+        let itemsJson = [
+            "items": [item1Json, item2Json]
+        ]
+        
+        
+        let (sut, client) = makeSUT()
+        
+        expect(sut, toCompleteWith: .success([FeedItem.item1, FeedItem.item2])) {
+            let json = try! JSONSerialization.data(withJSONObject: itemsJson)
+            client.complete(withStatusCode: 200, data: json)
+        }
+    }
+    
     
     //MARK: Helpers
 
@@ -117,3 +145,14 @@ class RemoteFeedLoaderTests: XCTestCase {
 
 }
 
+
+private extension FeedItem {
+    static let item1 = FeedItem(id: UUID(),
+                            description: nil,
+                            location: nil,
+                            imageURL: URL(string: "http://a-url.com")!)
+    static let item2 = FeedItem(id: UUID(),
+                            description: "a description",
+                            location: "a location",
+                            imageURL: URL(string: "http://another-url.com")!)
+}
