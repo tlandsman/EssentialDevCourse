@@ -19,6 +19,7 @@
 		EE87E43C294A1FAB00A783AA /* EssentialDevCourseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE87E43B294A1FAB00A783AA /* EssentialDevCourseUITests.swift */; };
 		EE87E43E294A1FAB00A783AA /* EssentialDevCourseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE87E43D294A1FAB00A783AA /* EssentialDevCourseUITestsLaunchTests.swift */; };
 		EEBC6F43296F072700C390E0 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBC6F42296F072700C390E0 /* HTTPClient.swift */; };
+		EEBC6F45296F07B900C390E0 /* FeedItemsMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBC6F44296F07B900C390E0 /* FeedItemsMapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		EE87E43B294A1FAB00A783AA /* EssentialDevCourseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialDevCourseUITests.swift; sourceTree = "<group>"; };
 		EE87E43D294A1FAB00A783AA /* EssentialDevCourseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialDevCourseUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		EEBC6F42296F072700C390E0 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		EEBC6F44296F07B900C390E0 /* FeedItemsMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItemsMapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 			children = (
 				EE2C06C72952104B002FCE5F /* RemoteFeedLoader.swift */,
 				EEBC6F42296F072700C390E0 /* HTTPClient.swift */,
+				EEBC6F44296F07B900C390E0 /* FeedItemsMapper.swift */,
 			);
 			path = "Feed Api";
 			sourceTree = "<group>";
@@ -301,6 +304,7 @@
 				EE2C06C32950CDD5002FCE5F /* FeedItem.swift in Sources */,
 				EE87E422294A1FAA00A783AA /* ContentView.swift in Sources */,
 				EEBC6F43296F072700C390E0 /* HTTPClient.swift in Sources */,
+				EEBC6F45296F07B900C390E0 /* FeedItemsMapper.swift in Sources */,
 				EE87E420294A1FAA00A783AA /* EssentialDevCourseApp.swift in Sources */,
 				EE2C06C82952104B002FCE5F /* RemoteFeedLoader.swift in Sources */,
 				EE2C06C12950CD4B002FCE5F /* FeedLoader.swift in Sources */,
