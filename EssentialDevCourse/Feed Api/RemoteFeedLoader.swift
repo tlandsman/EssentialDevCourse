@@ -28,10 +28,11 @@ public final class RemoteFeedLoader {
     }
     
     public func load(completion: @escaping (Result) -> Void) {
-        client.get(from: url, completion: { result in
+        client.get(from: url, completion: { [weak self] result in
+            // We use a static mapper function vs an instance method to avoid capture self.  However, that means this block will still execute if client was deallocated.  We don't know the implementtion of the client.  It might be a singleton that lives longer than the remote feed loader. Consumers of the remote feed loader might not expect the completion block to be invoked after the Remote Feeder has been deallocated causing a bug.
+            guard self != nil else { return }
             switch result {
             case let .success(data, response):
-                // We use a static function on this helper to avoid capture self if it was an instance method.  this is key because if the instance of the Remote Feed Loader has been deallocated this block can still be invoked causing a bug.  We don't know the implementtion of the client.  It might be a singleton that lives longer than the remote feed loader. Consumers of the remote feed loader might not expect the completion block to be invoked after the Remote Feeder has been deallocated. 
                 let result = FeedItemsMapper.map(data, from: response)
                 return completion(result)
             case .failure:
