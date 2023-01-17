@@ -96,7 +96,7 @@
 		EE2C06BD2950CB1D002FCE5F /* Networking */ = {
 			isa = PBXGroup;
 			children = (
-				EE2C06C42950CEB0002FCE5F /* RemoteFeedLoaderTests.swift */,
+				EE554A2B2976EFD4002F1FE8 /* FeedApi */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -109,6 +109,14 @@
 				EEBC6F44296F07B900C390E0 /* FeedItemsMapper.swift */,
 			);
 			path = "Feed Api";
+			sourceTree = "<group>";
+		};
+		EE554A2B2976EFD4002F1FE8 /* FeedApi */ = {
+			isa = PBXGroup;
+			children = (
+				EE2C06C42950CEB0002FCE5F /* RemoteFeedLoaderTests.swift */,
+			);
+			path = FeedApi;
 			sourceTree = "<group>";
 		};
 		EE87E413294A1FAA00A783AA = {
