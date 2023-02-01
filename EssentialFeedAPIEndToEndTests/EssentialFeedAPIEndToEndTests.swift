@@ -6,30 +6,36 @@
 //
 
 import XCTest
+import EssentialDevCourse
 
 final class EssentialFeedAPIEndToEndTests: XCTestCase {
 
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
+    func test_endToEndTestServerGETFeedResult_matchesFixedTestAccountData() {
+        let testServerURL = URL(string: "https://essentialdeveloper.com/feed-case-study/test-api/feed")!
+        let client = URLSessionHTTPClient()
+        let loader = RemoteFeedLoader(url: testServerURL, client: client)
+        
+        let exp = expectation(description: "Wait for load completion")
+        var receivedResult: LoadFeedResult?
+        loader.load { result in
+            receivedResult = result
+            exp.fulfill()
+        }
+        wait(for: [exp], timeout: 5.0)
+        
+        switch receivedResult {
+        case let .success(items)?:
+            XCTAssertEqual(items.count, 8, "Expected 8 items in test account feed")
 
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
-
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
-    }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        measure {
-            // Put the code you want to measure the time of here.
+        case let .failure(error)?:
+            XCTFail("Expected successful feed result, got \(error) instead")
+        default:
+            XCTFail("Expected successful feed result, got no result instead")
         }
     }
-
+    
 }
+
+
+
+
