@@ -270,8 +270,8 @@
 			projectRoot = "";
 			targets = (
 				EEC0B06029932798002EE347 /* EssentialFeed */,
-				EE2E47B129895CD60032D169 /* EssentialFeedAPIEndToEndTests */,
 				EEC0B06929932798002EE347 /* EssentialFeedTests */,
+				EE2E47B129895CD60032D169 /* EssentialFeedAPIEndToEndTests */,
 			);
 		};
 /* End PBXProject section */
