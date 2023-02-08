@@ -7,7 +7,7 @@
 
 import Foundation
 import XCTest
-import EssentialDevCourse
+import EssentialFeed
 
 
 class RemoteFeedLoaderTests: XCTestCase {

@@ -7,46 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EE2C06C12950CD4B002FCE5F /* FeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2C06C02950CD4B002FCE5F /* FeedLoader.swift */; };
-		EE2C06C32950CDD5002FCE5F /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2C06C22950CDD5002FCE5F /* FeedItem.swift */; };
-		EE2C06C52950CEB0002FCE5F /* RemoteFeedLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2C06C42950CEB0002FCE5F /* RemoteFeedLoaderTests.swift */; };
-		EE2C06C82952104B002FCE5F /* RemoteFeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2C06C72952104B002FCE5F /* RemoteFeedLoader.swift */; };
-		EE2E47AD2982D0570032D169 /* URLSessionHTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2E47AC2982D0570032D169 /* URLSessionHTTPClient.swift */; };
 		EE2E47B529895CD60032D169 /* EssentialFeedAPIEndToEndTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2E47B429895CD60032D169 /* EssentialFeedAPIEndToEndTests.swift */; };
-		EE35CBBE297ED14500FD7225 /* XCTest+MemoryLeakTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE35CBBD297ED14500FD7225 /* XCTest+MemoryLeakTracking.swift */; };
-		EE554A2D2976F08F002F1FE8 /* URLSessionHTTPClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE554A2C2976F08F002F1FE8 /* URLSessionHTTPClientTests.swift */; };
-		EE87E420294A1FAA00A783AA /* EssentialDevCourseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE87E41F294A1FAA00A783AA /* EssentialDevCourseApp.swift */; };
-		EE87E422294A1FAA00A783AA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE87E421294A1FAA00A783AA /* ContentView.swift */; };
-		EE87E424294A1FAB00A783AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE87E423294A1FAB00A783AA /* Assets.xcassets */; };
-		EE87E428294A1FAB00A783AA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE87E427294A1FAB00A783AA /* Preview Assets.xcassets */; };
-		EE87E432294A1FAB00A783AA /* EssentialDevCourseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE87E431294A1FAB00A783AA /* EssentialDevCourseTests.swift */; };
-		EE87E43C294A1FAB00A783AA /* EssentialDevCourseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE87E43B294A1FAB00A783AA /* EssentialDevCourseUITests.swift */; };
-		EE87E43E294A1FAB00A783AA /* EssentialDevCourseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE87E43D294A1FAB00A783AA /* EssentialDevCourseUITestsLaunchTests.swift */; };
-		EEBC6F43296F072700C390E0 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBC6F42296F072700C390E0 /* HTTPClient.swift */; };
-		EEBC6F45296F07B900C390E0 /* FeedItemsMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBC6F44296F07B900C390E0 /* FeedItemsMapper.swift */; };
+		EEC0B06529932798002EE347 /* EssentialFeed.docc in Sources */ = {isa = PBXBuildFile; fileRef = EEC0B06429932798002EE347 /* EssentialFeed.docc */; };
+		EEC0B06B29932798002EE347 /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEC0B06129932798002EE347 /* EssentialFeed.framework */; };
+		EEC0B07229932798002EE347 /* EssentialFeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC0B07129932798002EE347 /* EssentialFeedTests.swift */; };
+		EEE5CC8A2993290000C21C52 /* RemoteFeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2C06C72952104B002FCE5F /* RemoteFeedLoader.swift */; };
+		EEE5CC8B2993290300C21C52 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBC6F42296F072700C390E0 /* HTTPClient.swift */; };
+		EEE5CC8C2993290600C21C52 /* FeedItemsMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBC6F44296F07B900C390E0 /* FeedItemsMapper.swift */; };
+		EEE5CC8D2993290900C21C52 /* URLSessionHTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2E47AC2982D0570032D169 /* URLSessionHTTPClient.swift */; };
+		EEE5CC8E2993290E00C21C52 /* FeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2C06C02950CD4B002FCE5F /* FeedLoader.swift */; };
+		EEE5CC8F2993291100C21C52 /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2C06C22950CDD5002FCE5F /* FeedItem.swift */; };
+		EEE5CC902993291800C21C52 /* RemoteFeedLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2C06C42950CEB0002FCE5F /* RemoteFeedLoaderTests.swift */; };
+		EEE5CC922993291E00C21C52 /* URLSessionHTTPClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE554A2C2976F08F002F1FE8 /* URLSessionHTTPClientTests.swift */; };
+		EEE5CC932993292400C21C52 /* XCTest+MemoryLeakTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE35CBBD297ED14500FD7225 /* XCTest+MemoryLeakTracking.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		EE2E47B629895CD60032D169 /* PBXContainerItemProxy */ = {
+		EEC0B06C29932798002EE347 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = EE87E414294A1FAA00A783AA /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = EE87E41B294A1FAA00A783AA;
-			remoteInfo = EssentialDevCourse;
-		};
-		EE87E42E294A1FAB00A783AA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EE87E414294A1FAA00A783AA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EE87E41B294A1FAA00A783AA;
-			remoteInfo = EssentialDevCourse;
-		};
-		EE87E438294A1FAB00A783AA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EE87E414294A1FAA00A783AA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EE87E41B294A1FAA00A783AA;
-			remoteInfo = EssentialDevCourse;
+			remoteGlobalIDString = EEC0B06029932798002EE347;
+			remoteInfo = EssentialFeed;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -60,19 +42,12 @@
 		EE2E47B429895CD60032D169 /* EssentialFeedAPIEndToEndTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialFeedAPIEndToEndTests.swift; sourceTree = "<group>"; };
 		EE35CBBD297ED14500FD7225 /* XCTest+MemoryLeakTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTest+MemoryLeakTracking.swift"; sourceTree = "<group>"; };
 		EE554A2C2976F08F002F1FE8 /* URLSessionHTTPClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionHTTPClientTests.swift; sourceTree = "<group>"; };
-		EE87E41C294A1FAA00A783AA /* EssentialDevCourse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EssentialDevCourse.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE87E41F294A1FAA00A783AA /* EssentialDevCourseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialDevCourseApp.swift; sourceTree = "<group>"; };
-		EE87E421294A1FAA00A783AA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		EE87E423294A1FAB00A783AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EE87E425294A1FAB00A783AA /* EssentialDevCourse.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EssentialDevCourse.entitlements; sourceTree = "<group>"; };
-		EE87E427294A1FAB00A783AA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		EE87E42D294A1FAB00A783AA /* EssentialDevCourseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialDevCourseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE87E431294A1FAB00A783AA /* EssentialDevCourseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialDevCourseTests.swift; sourceTree = "<group>"; };
-		EE87E437294A1FAB00A783AA /* EssentialDevCourseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialDevCourseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE87E43B294A1FAB00A783AA /* EssentialDevCourseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialDevCourseUITests.swift; sourceTree = "<group>"; };
-		EE87E43D294A1FAB00A783AA /* EssentialDevCourseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialDevCourseUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		EEBC6F42296F072700C390E0 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
 		EEBC6F44296F07B900C390E0 /* FeedItemsMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItemsMapper.swift; sourceTree = "<group>"; };
+		EEC0B06129932798002EE347 /* EssentialFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EssentialFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEC0B06429932798002EE347 /* EssentialFeed.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = EssentialFeed.docc; sourceTree = "<group>"; };
+		EEC0B06A29932798002EE347 /* EssentialFeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialFeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEC0B07129932798002EE347 /* EssentialFeedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialFeedTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,24 +58,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE87E419294A1FAA00A783AA /* Frameworks */ = {
+		EEC0B05E29932798002EE347 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE87E42A294A1FAB00A783AA /* Frameworks */ = {
+		EEC0B06729932798002EE347 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EE87E434294A1FAB00A783AA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				EEC0B06B29932798002EE347 /* EssentialFeed.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,9 +133,8 @@
 		EE87E413294A1FAA00A783AA = {
 			isa = PBXGroup;
 			children = (
-				EE87E41E294A1FAA00A783AA /* EssentialDevCourse */,
-				EE87E430294A1FAB00A783AA /* EssentialDevCourseTests */,
-				EE87E43A294A1FAB00A783AA /* EssentialDevCourseUITests */,
+				EEC0B06229932798002EE347 /* EssentialFeed */,
+				EEC0B07029932798002EE347 /* EssentialFeedTests */,
 				EE2E47B329895CD60032D169 /* EssentialFeedAPIEndToEndTests */,
 				EE87E41D294A1FAA00A783AA /* Products */,
 			);
@@ -175,55 +143,43 @@
 		EE87E41D294A1FAA00A783AA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EE87E41C294A1FAA00A783AA /* EssentialDevCourse.app */,
-				EE87E42D294A1FAB00A783AA /* EssentialDevCourseTests.xctest */,
-				EE87E437294A1FAB00A783AA /* EssentialDevCourseUITests.xctest */,
 				EE2E47B229895CD60032D169 /* EssentialFeedAPIEndToEndTests.xctest */,
+				EEC0B06129932798002EE347 /* EssentialFeed.framework */,
+				EEC0B06A29932798002EE347 /* EssentialFeedTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EE87E41E294A1FAA00A783AA /* EssentialDevCourse */ = {
+		EEC0B06229932798002EE347 /* EssentialFeed */ = {
 			isa = PBXGroup;
 			children = (
-				EE87E41F294A1FAA00A783AA /* EssentialDevCourseApp.swift */,
-				EE2C06BC2950CB06002FCE5F /* Feed Feature */,
 				EE2C06C629521012002FCE5F /* Feed Api */,
-				EE87E421294A1FAA00A783AA /* ContentView.swift */,
-				EE87E423294A1FAB00A783AA /* Assets.xcassets */,
-				EE87E425294A1FAB00A783AA /* EssentialDevCourse.entitlements */,
-				EE87E426294A1FAB00A783AA /* Preview Content */,
+				EE2C06BC2950CB06002FCE5F /* Feed Feature */,
+				EEC0B06429932798002EE347 /* EssentialFeed.docc */,
 			);
-			path = EssentialDevCourse;
+			path = EssentialFeed;
 			sourceTree = "<group>";
 		};
-		EE87E426294A1FAB00A783AA /* Preview Content */ = {
+		EEC0B07029932798002EE347 /* EssentialFeedTests */ = {
 			isa = PBXGroup;
 			children = (
-				EE87E427294A1FAB00A783AA /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		EE87E430294A1FAB00A783AA /* EssentialDevCourseTests */ = {
-			isa = PBXGroup;
-			children = (
-				EE87E431294A1FAB00A783AA /* EssentialDevCourseTests.swift */,
 				EE2C06BD2950CB1D002FCE5F /* Networking */,
+				EEC0B07129932798002EE347 /* EssentialFeedTests.swift */,
 			);
-			path = EssentialDevCourseTests;
-			sourceTree = "<group>";
-		};
-		EE87E43A294A1FAB00A783AA /* EssentialDevCourseUITests */ = {
-			isa = PBXGroup;
-			children = (
-				EE87E43B294A1FAB00A783AA /* EssentialDevCourseUITests.swift */,
-				EE87E43D294A1FAB00A783AA /* EssentialDevCourseUITestsLaunchTests.swift */,
-			);
-			path = EssentialDevCourseUITests;
+			path = EssentialFeedTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EEC0B05C29932798002EE347 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		EE2E47B129895CD60032D169 /* EssentialFeedAPIEndToEndTests */ = {
@@ -237,65 +193,47 @@
 			buildRules = (
 			);
 			dependencies = (
-				EE2E47B729895CD60032D169 /* PBXTargetDependency */,
 			);
 			name = EssentialFeedAPIEndToEndTests;
 			productName = EssentialFeedAPIEndToEndTests;
 			productReference = EE2E47B229895CD60032D169 /* EssentialFeedAPIEndToEndTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		EE87E41B294A1FAA00A783AA /* EssentialDevCourse */ = {
+		EEC0B06029932798002EE347 /* EssentialFeed */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EE87E441294A1FAB00A783AA /* Build configuration list for PBXNativeTarget "EssentialDevCourse" */;
+			buildConfigurationList = EEC0B07829932798002EE347 /* Build configuration list for PBXNativeTarget "EssentialFeed" */;
 			buildPhases = (
-				EE87E418294A1FAA00A783AA /* Sources */,
-				EE87E419294A1FAA00A783AA /* Frameworks */,
-				EE87E41A294A1FAA00A783AA /* Resources */,
+				EEC0B05C29932798002EE347 /* Headers */,
+				EEC0B05D29932798002EE347 /* Sources */,
+				EEC0B05E29932798002EE347 /* Frameworks */,
+				EEC0B05F29932798002EE347 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = EssentialDevCourse;
-			productName = EssentialDevCourse;
-			productReference = EE87E41C294A1FAA00A783AA /* EssentialDevCourse.app */;
-			productType = "com.apple.product-type.application";
+			name = EssentialFeed;
+			productName = EssentialFeed;
+			productReference = EEC0B06129932798002EE347 /* EssentialFeed.framework */;
+			productType = "com.apple.product-type.framework";
 		};
-		EE87E42C294A1FAB00A783AA /* EssentialDevCourseTests */ = {
+		EEC0B06929932798002EE347 /* EssentialFeedTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EE87E444294A1FAB00A783AA /* Build configuration list for PBXNativeTarget "EssentialDevCourseTests" */;
+			buildConfigurationList = EEC0B07C29932798002EE347 /* Build configuration list for PBXNativeTarget "EssentialFeedTests" */;
 			buildPhases = (
-				EE87E429294A1FAB00A783AA /* Sources */,
-				EE87E42A294A1FAB00A783AA /* Frameworks */,
-				EE87E42B294A1FAB00A783AA /* Resources */,
+				EEC0B06629932798002EE347 /* Sources */,
+				EEC0B06729932798002EE347 /* Frameworks */,
+				EEC0B06829932798002EE347 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EE87E42F294A1FAB00A783AA /* PBXTargetDependency */,
+				EEC0B06D29932798002EE347 /* PBXTargetDependency */,
 			);
-			name = EssentialDevCourseTests;
-			productName = EssentialDevCourseTests;
-			productReference = EE87E42D294A1FAB00A783AA /* EssentialDevCourseTests.xctest */;
+			name = EssentialFeedTests;
+			productName = EssentialFeedTests;
+			productReference = EEC0B06A29932798002EE347 /* EssentialFeedTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		EE87E436294A1FAB00A783AA /* EssentialDevCourseUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EE87E447294A1FAB00A783AA /* Build configuration list for PBXNativeTarget "EssentialDevCourseUITests" */;
-			buildPhases = (
-				EE87E433294A1FAB00A783AA /* Sources */,
-				EE87E434294A1FAB00A783AA /* Frameworks */,
-				EE87E435294A1FAB00A783AA /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				EE87E439294A1FAB00A783AA /* PBXTargetDependency */,
-			);
-			name = EssentialDevCourseUITests;
-			productName = EssentialDevCourseUITests;
-			productReference = EE87E437294A1FAB00A783AA /* EssentialDevCourseUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -309,18 +247,12 @@
 				TargetAttributes = {
 					EE2E47B129895CD60032D169 = {
 						CreatedOnToolsVersion = 14.2;
-						TestTargetID = EE87E41B294A1FAA00A783AA;
 					};
-					EE87E41B294A1FAA00A783AA = {
-						CreatedOnToolsVersion = 14.1;
+					EEC0B06029932798002EE347 = {
+						CreatedOnToolsVersion = 14.2;
 					};
-					EE87E42C294A1FAB00A783AA = {
-						CreatedOnToolsVersion = 14.1;
-						TestTargetID = EE87E41B294A1FAA00A783AA;
-					};
-					EE87E436294A1FAB00A783AA = {
-						CreatedOnToolsVersion = 14.1;
-						TestTargetID = EE87E41B294A1FAA00A783AA;
+					EEC0B06929932798002EE347 = {
+						CreatedOnToolsVersion = 14.2;
 					};
 				};
 			};
@@ -337,10 +269,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EE87E41B294A1FAA00A783AA /* EssentialDevCourse */,
-				EE87E42C294A1FAB00A783AA /* EssentialDevCourseTests */,
-				EE87E436294A1FAB00A783AA /* EssentialDevCourseUITests */,
+				EEC0B06029932798002EE347 /* EssentialFeed */,
 				EE2E47B129895CD60032D169 /* EssentialFeedAPIEndToEndTests */,
+				EEC0B06929932798002EE347 /* EssentialFeedTests */,
 			);
 		};
 /* End PBXProject section */
@@ -353,23 +284,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE87E41A294A1FAA00A783AA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EE87E428294A1FAB00A783AA /* Preview Assets.xcassets in Resources */,
-				EE87E424294A1FAB00A783AA /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EE87E42B294A1FAB00A783AA /* Resources */ = {
+		EEC0B05F29932798002EE347 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE87E435294A1FAB00A783AA /* Resources */ = {
+		EEC0B06829932798002EE347 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -387,58 +309,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE87E418294A1FAA00A783AA /* Sources */ = {
+		EEC0B05D29932798002EE347 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE2C06C32950CDD5002FCE5F /* FeedItem.swift in Sources */,
-				EE87E422294A1FAA00A783AA /* ContentView.swift in Sources */,
-				EEBC6F43296F072700C390E0 /* HTTPClient.swift in Sources */,
-				EE2E47AD2982D0570032D169 /* URLSessionHTTPClient.swift in Sources */,
-				EEBC6F45296F07B900C390E0 /* FeedItemsMapper.swift in Sources */,
-				EE87E420294A1FAA00A783AA /* EssentialDevCourseApp.swift in Sources */,
-				EE2C06C82952104B002FCE5F /* RemoteFeedLoader.swift in Sources */,
-				EE2C06C12950CD4B002FCE5F /* FeedLoader.swift in Sources */,
+				EEE5CC8E2993290E00C21C52 /* FeedLoader.swift in Sources */,
+				EEE5CC8A2993290000C21C52 /* RemoteFeedLoader.swift in Sources */,
+				EEE5CC8D2993290900C21C52 /* URLSessionHTTPClient.swift in Sources */,
+				EEC0B06529932798002EE347 /* EssentialFeed.docc in Sources */,
+				EEE5CC8B2993290300C21C52 /* HTTPClient.swift in Sources */,
+				EEE5CC8F2993291100C21C52 /* FeedItem.swift in Sources */,
+				EEE5CC8C2993290600C21C52 /* FeedItemsMapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE87E429294A1FAB00A783AA /* Sources */ = {
+		EEC0B06629932798002EE347 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE35CBBE297ED14500FD7225 /* XCTest+MemoryLeakTracking.swift in Sources */,
-				EE2C06C52950CEB0002FCE5F /* RemoteFeedLoaderTests.swift in Sources */,
-				EE554A2D2976F08F002F1FE8 /* URLSessionHTTPClientTests.swift in Sources */,
-				EE87E432294A1FAB00A783AA /* EssentialDevCourseTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EE87E433294A1FAB00A783AA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EE87E43E294A1FAB00A783AA /* EssentialDevCourseUITestsLaunchTests.swift in Sources */,
-				EE87E43C294A1FAB00A783AA /* EssentialDevCourseUITests.swift in Sources */,
+				EEE5CC902993291800C21C52 /* RemoteFeedLoaderTests.swift in Sources */,
+				EEE5CC932993292400C21C52 /* XCTest+MemoryLeakTracking.swift in Sources */,
+				EEE5CC922993291E00C21C52 /* URLSessionHTTPClientTests.swift in Sources */,
+				EEC0B07229932798002EE347 /* EssentialFeedTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		EE2E47B729895CD60032D169 /* PBXTargetDependency */ = {
+		EEC0B06D29932798002EE347 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EE87E41B294A1FAA00A783AA /* EssentialDevCourse */;
-			targetProxy = EE2E47B629895CD60032D169 /* PBXContainerItemProxy */;
-		};
-		EE87E42F294A1FAB00A783AA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = EE87E41B294A1FAA00A783AA /* EssentialDevCourse */;
-			targetProxy = EE87E42E294A1FAB00A783AA /* PBXContainerItemProxy */;
-		};
-		EE87E439294A1FAB00A783AA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = EE87E41B294A1FAA00A783AA /* EssentialDevCourse */;
-			targetProxy = EE87E438294A1FAB00A783AA /* PBXContainerItemProxy */;
+			target = EEC0B06029932798002EE347 /* EssentialFeed */;
+			targetProxy = EEC0B06C29932798002EE347 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -446,38 +348,34 @@
 		EE2E47B829895CD60032D169 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Z9KH6CV8D9;
 				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tanya.EssentialFeedAPIEndToEndTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EssentialDevCourse.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EssentialDevCourse";
 			};
 			name = Debug;
 		};
 		EE2E47B929895CD60032D169 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Z9KH6CV8D9;
 				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tanya.EssentialFeedAPIEndToEndTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EssentialDevCourse.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EssentialDevCourse";
 			};
 			name = Release;
 		};
@@ -531,6 +429,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -583,6 +482,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -590,129 +490,89 @@
 			};
 			name = Release;
 		};
-		EE87E442294A1FAB00A783AA /* Debug */ = {
+		EEC0B07929932798002EE347 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = EssentialDevCourse/EssentialDevCourse.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"EssentialDevCourse/Preview Content\"";
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = Z9KH6CV8D9;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GENERATE_INFOPLIST_FILE = YES;
-				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
-				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
-				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
-				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tanya.EssentialDevCourse;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tanya.EssentialFeed;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		EE87E443294A1FAB00A783AA /* Release */ = {
+		EEC0B07A29932798002EE347 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = EssentialDevCourse/EssentialDevCourse.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"EssentialDevCourse/Preview Content\"";
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = Z9KH6CV8D9;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GENERATE_INFOPLIST_FILE = YES;
-				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
-				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
-				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
-				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tanya.EssentialDevCourse;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tanya.EssentialFeed;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		EE87E445294A1FAB00A783AA /* Debug */ = {
+		EEC0B07D29932798002EE347 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Z9KH6CV8D9;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
-				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tanya.EssentialDevCourseTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tanya.EssentialFeedTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EssentialDevCourse.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EssentialDevCourse";
 			};
 			name = Debug;
 		};
-		EE87E446294A1FAB00A783AA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Z9KH6CV8D9;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
-				MACOSX_DEPLOYMENT_TARGET = 12.6;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tanya.EssentialDevCourseTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EssentialDevCourse.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EssentialDevCourse";
-			};
-			name = Release;
-		};
-		EE87E448294A1FAB00A783AA /* Debug */ = {
+		EEC0B07E29932798002EE347 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -720,39 +580,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Z9KH6CV8D9;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
-				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tanya.EssentialDevCourseUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tanya.EssentialFeedTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = EssentialDevCourse;
-			};
-			name = Debug;
-		};
-		EE87E449294A1FAB00A783AA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Z9KH6CV8D9;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
-				MACOSX_DEPLOYMENT_TARGET = 12.6;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tanya.EssentialDevCourseUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = EssentialDevCourse;
 			};
 			name = Release;
 		};
@@ -777,29 +611,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EE87E441294A1FAB00A783AA /* Build configuration list for PBXNativeTarget "EssentialDevCourse" */ = {
+		EEC0B07829932798002EE347 /* Build configuration list for PBXNativeTarget "EssentialFeed" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EE87E442294A1FAB00A783AA /* Debug */,
-				EE87E443294A1FAB00A783AA /* Release */,
+				EEC0B07929932798002EE347 /* Debug */,
+				EEC0B07A29932798002EE347 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EE87E444294A1FAB00A783AA /* Build configuration list for PBXNativeTarget "EssentialDevCourseTests" */ = {
+		EEC0B07C29932798002EE347 /* Build configuration list for PBXNativeTarget "EssentialFeedTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EE87E445294A1FAB00A783AA /* Debug */,
-				EE87E446294A1FAB00A783AA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EE87E447294A1FAB00A783AA /* Build configuration list for PBXNativeTarget "EssentialDevCourseUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EE87E448294A1FAB00A783AA /* Debug */,
-				EE87E449294A1FAB00A783AA /* Release */,
+				EEC0B07D29932798002EE347 /* Debug */,
+				EEC0B07E29932798002EE347 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
