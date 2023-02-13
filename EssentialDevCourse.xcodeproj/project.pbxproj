@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EE2E47B529895CD60032D169 /* EssentialFeedAPIEndToEndTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2E47B429895CD60032D169 /* EssentialFeedAPIEndToEndTests.swift */; };
+		EEA7C4DE29969682001F6666 /* EssentialFeedAPIEndToEndTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2E47B429895CD60032D169 /* EssentialFeedAPIEndToEndTests.swift */; };
 		EEC0B06529932798002EE347 /* EssentialFeed.docc in Sources */ = {isa = PBXBuildFile; fileRef = EEC0B06429932798002EE347 /* EssentialFeed.docc */; };
 		EEC0B06B29932798002EE347 /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEC0B06129932798002EE347 /* EssentialFeed.framework */; };
 		EEC0B07229932798002EE347 /* EssentialFeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC0B07129932798002EE347 /* EssentialFeedTests.swift */; };
@@ -305,7 +305,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE2E47B529895CD60032D169 /* EssentialFeedAPIEndToEndTests.swift in Sources */,
+				EEA7C4DE29969682001F6666 /* EssentialFeedAPIEndToEndTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
